@@ -1,11 +1,15 @@
 // define your function here
 const multiplesOf = (number, limit) => {
-    for (let i = 0; i <= number; i++);
-    if (i % 2 === 0)
+  const multiples = [];
+    for (let i = 0; i < limit; i++){
+    if (i%number === 0);{
     multiples.push(i);
-    
+    }
 }
-console.log(multiplesOf(10, 100));
+return multiples
+}
+const multiplesOfNumber = multiplesOf (5 , 80);
+console.log(multiplesOfNumber);
 
 
 
